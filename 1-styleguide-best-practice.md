@@ -6,6 +6,24 @@ We hope to build on this template over time by working out what does and doesnâ€
 
 **Table of content**
 
+- [How do we style our websites?](#how-do-we-style-our-websites)
+- [What sizing units do we use?](#what-sizing-units-do-we-use)
+- [How do we structure our pages?](#how-do-we-structure-our-pages)
+- [What does the template include?](#what-does-the-template-include)
+- [How do I update the base styles?](#how-do-i-update-the-base-styles)
+- [Can I delete the styleguide pages?](#can-i-delete-the-styleguide-pages)
+- [How do I use the components?](#how-do-i-use-the-components)
+- [How do I create the CMS filter?](#how-do-i-create-the-cms-filter)
+- [Which domain do I publish to?](#which-domain-do-i-publish-to)
+- [How do I update the SEO?](#how-do-i-update-the-seo)
+- [How do I organise assets?](#how-do-i-organise-assets)
+- [Can I remove unused styles?](#can-i-remove-unused-styles)
+- [How do I create new interactions?](#how-do-i-create-new-interactions)
+- [Component Documentation](#component-documentation)
+- [Building Accessible Websites](#building-accessible-websites)
+- [Collecting Feedback](#collecting-feedback)
+- [Useful resources](#useful-resources)
+
 ---
 
 ## How do we style our websites?
