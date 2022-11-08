@@ -258,29 +258,67 @@ On the main blog and FAQ pages, we’ve added category links to allow us to filt
 
 As the main legwork has been done, updating things is pretty easy (Although it can be tricky at first, so help is at hand). Using the blog as an example, the process should look like this (Repeat for other collections such as the FAQ):
 
+<aside>
+💡 This has since been updated to use the latest ‘Attributes’ library from Finsweet (Specifically their CMS filtering and Load-Under functionality).
+</aside>
+
+### Updates // November 2022
+
+Thanks to Finsweet’s latest update, adding complex multi-level filtering, pagination and more is now easier than ever:
+[https://www.finsweet.com/attributes/cms-filter](https://www.finsweet.com/attributes/cms-filter)
+[https://www.finsweet.com/attributes/cms-load](https://www.finsweet.com/attributes/cms-load)
+
+It’s also a lot more straightforward to create nested CMS collections and override Webflow’s default restriction — this isn’t needed too often but it’s always useful to know if you’re ever creating a filtering system or dynamic tag list using a multi-reference field:
+
+[https://www.finsweet.com/attributes/cms-nest](https://www.finsweet.com/attributes/cms-nest)
+
+_Checkout the Case Study cards on the [nuom site](https://www.nuom.co.uk/case-studies) to see this in action._
+
+Anyway; to update the filters now, you just need to do the following:
+
+**1.**
+
+![Screenshot 2022-11-07 at 15.33.53.png](screenshots/styleguide/Screenshot_2022-11-07_at_15.33.53.png)
+
+Update the categories as needed, and then select the correct category for each post in the `Blog Posts` collection.
+
+**2.**
+
+![Screenshot 2022-11-07 at 15.33.35.png](screenshots/styleguide/Screenshot_2022-11-07_at_15.33.35.png)
+
+Make sure the correct attribute value is applied, which in our case is `category` — this shouldn’t need to change, but this value is what we’ll use to filter the cards.
+
+**3.**
+
+![Screenshot 2022-11-07 at 15.33.13.png](screenshots/styleguide/Screenshot_2022-11-07_at_15.33.13.png)
+
+Update the link text and make sure the text in the `Field Settings` match. If you want to change the `fs-cmsfilter-field` value, you’ll also need to make sure the attribute value matches the value on the card tags mentioned above.
+
+That should be all that is required. You’ll then need to publish the site to test whether the filter works as expected (Any custom scripts won’t work in the Webflow designer).
+
+… Repeat this process for the FAQ’s, or any other filtering system you’re working on.
+
+### ** LEGACY **
+
 **1.**
 
 ![Screenshot 2022-02-11 at 11.21.51.png](screenshots/styleguide/Screenshot_2022-02-11_at_11.21.51.png)
 
-Update the category names for the blog. These can be found under the `Blog Categories` collection list.
+~~Update the category names for the blog. These can be found under the `Blog Categories` collection list.~~
 
 **2.**
 
 ![Screenshot 2022-02-11 at 11.22.13.png](screenshots/styleguide/Screenshot_2022-02-11_at_11.22.13.png)
 
-Apply the categories to the correct blog posts under the main `Blog Post` collection.
+~~Apply the categories to the correct blog posts under the main `Blog Post` collection.~~
 
 **3.**
 
 ![Screenshot 2022-02-11 at 14.58.59.png](screenshots/styleguide/Screenshot_2022-02-11_at_14.58.59.png)
 
-Update the link text and make sure their filter attributes match the name of each category.
+~~Update the link text and make sure their filter attributes match the name of each category.~~
 
-That should be all that is required. You’ll then need to publish the site to test whether the filter works as expected (Any custom scripts won’t work in the Webflow designer).
-
-<aside>
-💡 There’s also an `active-category` class as well, which we’ve styled in the `custom-code` embed nested in the categories container. You can control the styling for that class in here, although you shouldn’t need to change much apart from the background colour.
-</aside>
+~~💡 There’s also an `active-category` class as well, which we’ve styled in the `custom-code` embed nested in the categories container. You can control the styling for that class in here, although you shouldn’t need to change much apart from the background colour.~~
 
 ---
 
