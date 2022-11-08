@@ -116,7 +116,7 @@ When it comes to file type, we recommend using the following formats based on th
 
 `SVG` These are good for vector graphics and icons as they are scalable and also smaller in file size than if you were to save them as a PNG.
 
-`WEBP` This isn’t supported by Webflow (yet), but they’re still worth mentioning as they are the most [optimised file type](https://developers.google.com/speed/webp/docs/webp_study) for images on the web.
+`WEBP` This is NOW supported by Webflow, and we recommend using this over JPG or PNG as it's the most [optimised file type](https://developers.google.com/speed/webp/docs/webp_study) for images on the web.
 
 ### Optimising images
 
